@@ -1,0 +1,148 @@
+.links {
+    text-align: center;
+
+}
+
+/*Inspired by lab8's jumbotron*/
+.bigTitle {
+    background-color: #31572c;
+    color: #fff;
+    padding: 3.3rem;
+    text-align: center;
+}
+
+.caption {
+    font-size: 20px;
+}
+
+/*https://www.w3schools.com/howto/howto_css_two_columns.asp*/
+.row {
+    display: flex;
+}
+
+.leftColumn {
+    flex: 30%;
+    background-color: #ebf2fa;
+    padding: 3rem;
+    padding-right: 2rem;
+}
+.rightColumn {
+    flex: 70%;
+    padding: 3rem;
+    background-color: #90a955;
+}
+
+#bio {
+    text-align: justify;
+
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+/*https://getbootstrap.com/docs/4.5/components/carousel/*/
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: bolder;
+    display: inline;
+}
+
+/*https://www.w3schools.com/cssref/pr_class_float.asp*/
+.dropdown {
+    float: right;
+    margin-top: 0.9rem;
+}
+
+
+.btn {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+/*https://www.w3schools.com/howto/howto_css_image_bw.asp*/
+#me {
+    filter: grayscale(100%);
+    float: right;
+    margin-left: 2rem;
+}
+
+#me:hover {
+    filter: grayscale(0%);
+    transition: filter 0.3s ease-in-out;
+}
+
+#name {
+    text-align: center;
+}
+
+.waterCaption, .skiingCaption {
+    color: #000;
+}
+
+.hikingCaption {
+    color: #fff;
+}
+
+.bakingColumn {
+    flex: 33%;
+    text-align: center;
+    padding: 2rem;
+    background-color: #dcc2e0;
+}
+
+/*https://www.w3schools.com/howto/howto_css_vertical_line.asp*/
+.vl {
+  border-left: 4px solid black;
+  height: 500px;
+}
+
+#bigClarinet {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+/*https://stackoverflow.com/questions/1464934/text-align-justify-and-images*/
+.musicColumns {
+    padding: 4.4rem;
+    background-color: #dcc2e0;
+    display: flex;
+    justify-content: space-between
+}
+
+audio {
+    width: 232px;
+}
+
+figcaption {
+    padding-top: 2rem;
+}

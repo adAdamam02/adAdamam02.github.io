@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Home</title>
+    </head>
+    <body>
+        <div class="bigTitle">
+            <h1 id="indexTitle">
+                Homepage
+            </h1>
+            <!--https://getbootstrap.com/docs/4.5/components/dropdowns/-->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Navigate
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="page1.html">Sports</a>
+                    <a class="dropdown-item" href="page2.html">Baking</a>
+                    <a class="dropdown-item" href="page3.html">Music</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="indexContent leftColumn">
+                <div class="links">
+                    <h5>
+                        <a href="page1.html" id="page1">
+                            <img src="./images/skiing.png" alt="Skiing" width="300" height="200"><br>
+                            Sports<br><br>
+                        </a>
+
+                        <a href="page2.html" id="page2">
+                            <img src="./images/baking.jpg" alt="Bûche de Noel" width="300" height="200"><br>
+                            Baking<br><br>
+                        </a>
+
+                        <a href="page3.html" id="page3">
+                            <abbr title="Image source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.daysoftheyear.com%2Fdays%2Fclarinet-day%2F&psig=AOvVaw2BUv6aWpcay-S0Mk58q1js&ust=1613668621314000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKj0sJ228e4CFQAAAAAdAAAAABAE">
+                                <img src="./images/clarinet0.jpg" alt="Clarinet" width="300" height="200"><br>
+                            </abbr>
+                            Music
+                        </a>
+                    </h5>
+                </div>
+            </div>
+
+            <div class="indexContent rightColumn">
+                <h2 id="name">Adam Gilbert-Diamond</h2><br>
+
+                <img id="me" src="./images/me.jpg" alt="Adam Gilbert-Diamond in Fiji" width="239" height="274">
+
+                <h4 id="bio">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adam is a Sophomore at Hanover High School. Recently, he’s been learning about client-side programming with Harvard’s CS50 course, and has been creating webpages with HTML, JavaScript, and CSS. In fact, this homepage is a project for Adam’s CS50 course! With this project, Adam hopes not only to fulfil the requirements, but to become a better web developer. To do so, Adam decided to write about himself — he decided to share some of his interests and hobbies. The things that Adam decided to share include sports, baking, and music, but he failed to make pages about other things that are important to him, including school, friends, and family. While this homepage by no means provides a complete picture of Adam and his life, he believes that it captures some of his interests, and hopes that a viewer will learn something new about Adam by viewing it.
+                </h4>
+
+            </div>
+
+        </div>
+    </body>
+</html>
